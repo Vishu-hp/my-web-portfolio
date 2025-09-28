@@ -2,8 +2,8 @@ import { links } from "../data";
 
 const Navbar = () => {
   return (
-    <nav className="bg-sky-100">
-      <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
+    <nav className="bg-sky-100 sticky top-0">
+      <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-6">
         <h2 className="text-3xl font-bold">
           Web<span className="text-sky-600">Dev</span>
         </h2>
